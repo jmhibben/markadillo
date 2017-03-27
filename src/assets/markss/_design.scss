@@ -1,0 +1,44 @@
+@import 'borders';
+
+.header {
+  position: absolute;
+  z-index: 10;
+
+}
+
+.fixed {
+  position: fixed;
+}
+
+.card {
+  z-index: 1;
+
+  .raised {
+    z-index: 2;
+  }
+}
+
+.sidebar {
+  top: 10rem;
+  padding-top: 1rem;
+  height: 100vh;
+  width: 18rem;
+  z-index: 10;
+}
+
+.tab-bar {
+  width: 100%;
+}
+
+.tab {
+  background-color: $primary-color;
+  box-sizing: border-box;
+  color: $font-color;
+  float: left;
+  width: 50%;
+
+  &.active {
+    background-color: lighten($primary-color, 7.5%);
+    font-weight: bold;
+  }
+}

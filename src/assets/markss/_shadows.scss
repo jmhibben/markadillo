@@ -1,0 +1,9 @@
+@import '../skeleton/base/variables';
+
+.shadow {
+  box-shadow: 0 0 2px $dark-grey;
+
+  &.raised{
+    box-shadow: 0 0 4px $dark-grey;
+  }
+}

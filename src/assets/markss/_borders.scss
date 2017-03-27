@@ -1,0 +1,25 @@
+@import 'variables';
+@import '../skeleton/base/variables';
+
+.border-top {
+  border-top: $border-size $border-style $border-color;
+}
+
+.border-bottom {
+  border-bottom: $border-size $border-style $border-color;
+}
+
+.border-right {
+  border-right: $border-size $border-style $border-color;
+}
+
+.border-left {
+  border-left: $border-size $border-style $border-color;
+}
+
+.border {
+  @extend .border-top;
+  @extend .border-bottom;
+  @extend .border-left;
+  @extend .border-right;
+}
