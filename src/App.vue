@@ -12,6 +12,8 @@ export default {
 
 <style lang="scss">
 @import 'assets/markss';
+// allows use of custom fonts in all components
+@import 'assets/fonts/fonts';
 
 #app {
   font-family: 'Nunito Sans';

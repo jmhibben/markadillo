@@ -37,16 +37,19 @@ export default {
   top: 0px;
 
   .brand-title {
+    font-family: 'Aero Matics';
     font-size: 6rem;
-    font-weight: 100;
+    font-variant: small-caps;
   }
 }
 
 .sidebar {
   background-color: $light-grey;
-  
+  font-family: 'Aero Matics';
+
   button {
     background-color: $primary-color;
+    letter-spacing: .2rem;
 
     &.sidebar-toggle {
       position: absolute;
@@ -58,6 +61,21 @@ export default {
 .window {
   margin-top: 10rem;
   margin-left: 18rem;
+
+  h1, .h1,
+  h2, .h2,
+  h3, .h3 {
+    font-family: 'Aero Matics';
+  }
+
+  h1, .h1 {
+    font-variant: small-caps;
+  }
+
+  .tab {
+    font-family: 'Aero Matics';
+    letter-spacing: .1rem;
+  }
 }
 
 a {
